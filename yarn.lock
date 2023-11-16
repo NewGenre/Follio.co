@@ -10,10 +10,34 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@studio-freight/lenis@^1.0.27":
+  version "1.0.27"
+  resolved "https://registry.npmjs.org/@studio-freight/lenis/-/lenis-1.0.27.tgz"
+  integrity sha512-1I6EaWR9rxdFjIJtF52CtETJt9ngfY4AjawrJY5pLxCvHa/lQZ+1v2gTUntwNZkuks6E2It6YEXV6jnpnCZFjA==
+
+"@unseenco/e@^2.3.0":
+  version "2.4.0"
+  resolved "https://registry.npmjs.org/@unseenco/e/-/e-2.4.0.tgz"
+  integrity sha512-HfvX/GCyKHKo193aULxUKawjFhq+0srB80+o7/DVm2npGHOx9tykPykSDRrR/lhjQYSvgEY/zI9CSd2feD/CMg==
+  dependencies:
+    selector-set "^1.1.5"
+
+"@unseenco/taxi@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.npmjs.org/@unseenco/taxi/-/taxi-1.5.1.tgz"
+  integrity sha512-76twO4VMf5NUEcf5aJw0q+7ObRJzO2WmEnMfI8WCx+DUzuuVWtDbA+ouIG/6CmwLYQixsJ9mSUQHcLtWCMiCDg==
+  dependencies:
+    "@unseenco/e" "^2.3.0"
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+bodymovin@^4.13.0:
+  version "4.13.0"
+  resolved "https://registry.npmjs.org/bodymovin/-/bodymovin-4.13.0.tgz"
+  integrity sha512-SdBh+kue99zDxUGe0tpX7HJ8LMpRac46jcHcWAdHJDW9Aa5Dhcc62uGn03XQS8soF5/NWx7KBzPadgm+FbtDGA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -92,10 +116,10 @@ glob@^7.1.3:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-gsap@^3.9.1:
-  version "3.9.1"
-  resolved "https://registry.npmjs.org/gsap/-/gsap-3.9.1.tgz"
-  integrity sha512-JSGVYoC6da4pIjdF/yxFU6Rz8OojOIDkbooveZlfNg0+JIoFoRruyfWAEi6R/gUeNcuOiTqUIb0gi1nCNrHf8w==
+gsap@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.npmjs.org/gsap/-/gsap-3.12.2.tgz"
+  integrity sha512-EkYnpG8qHgYBFAwsgsGEqvT1WUidX0tt/ijepx7z8EUJHElykg91RvW1XbkT59T0gZzzszOpjQv7SE41XuIXyQ==
 
 has@^1.0.3:
   version "1.0.3"
@@ -200,15 +224,30 @@ rimraf@^3.0.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
+selector-set@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.npmjs.org/selector-set/-/selector-set-1.1.5.tgz"
+  integrity sha512-6SQw6yMew5iOZ8/cDHDEnJWRM4ot2mxP6szZyF5ptrBogw4AcS4EXRj/8BUfgAMwVfdL84qpModlBMOl2NVrsQ==
+
 source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
+split-type@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.npmjs.org/split-type/-/split-type-0.3.4.tgz"
+  integrity sha512-otEk9vnD8qwfLsk3Lx0gz+qRkNIJCx0mlyL47ImP/DjMuV39d75Lpfwjn9fHteDRz0aoOblSzQjSNT9+Sswxcg==
+
 supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+swiper@^11.0.4:
+  version "11.0.4"
+  resolved "https://registry.npmjs.org/swiper/-/swiper-11.0.4.tgz"
+  integrity sha512-qtUxILrD4aD++rpKzGrkz3IAWL92f9uTrDwjb6HaNLmPvJhZCE/83DL+9w4kIgDDJeF6QKalV47rMBN77UOVYQ==
 
 tslib@^2.3.1:
   version "2.3.1"
