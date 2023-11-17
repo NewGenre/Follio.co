@@ -185,5 +185,3 @@ $(".about_section").each(function (index) {
       }
     );
   });
-
-//Sticky Section Video Grow End//
