@@ -13,7 +13,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Swiper from 'swiper/bundle';
 import Lenis from '@studio-freight/lenis'
 import 'swiper/css/bundle';
-import { easing } from 'jquery';
+
 
 // const lenisInstance = new Lenis();
 
